@@ -1,0 +1,12 @@
+C:\MyProjects\DotNetCamp\CarRentalProject\Entities\bin\Debug\net6.0\Entities.deps.json
+C:\MyProjects\DotNetCamp\CarRentalProject\Entities\bin\Debug\net6.0\Entities.dll
+C:\MyProjects\DotNetCamp\CarRentalProject\Entities\bin\Debug\net6.0\Entities.pdb
+C:\MyProjects\DotNetCamp\CarRentalProject\Entities\obj\Debug\net6.0\Entities.csproj.AssemblyReference.cache
+C:\MyProjects\DotNetCamp\CarRentalProject\Entities\obj\Debug\net6.0\Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\MyProjects\DotNetCamp\CarRentalProject\Entities\obj\Debug\net6.0\Entities.AssemblyInfoInputs.cache
+C:\MyProjects\DotNetCamp\CarRentalProject\Entities\obj\Debug\net6.0\Entities.AssemblyInfo.cs
+C:\MyProjects\DotNetCamp\CarRentalProject\Entities\obj\Debug\net6.0\Entities.csproj.CoreCompileInputs.cache
+C:\MyProjects\DotNetCamp\CarRentalProject\Entities\obj\Debug\net6.0\Entities.dll
+C:\MyProjects\DotNetCamp\CarRentalProject\Entities\obj\Debug\net6.0\refint\Entities.dll
+C:\MyProjects\DotNetCamp\CarRentalProject\Entities\obj\Debug\net6.0\Entities.pdb
+C:\MyProjects\DotNetCamp\CarRentalProject\Entities\obj\Debug\net6.0\ref\Entities.dll

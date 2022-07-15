@@ -1,0 +1,15 @@
+C:\MyProjects\DotNetCamp\CarRentalProject\DataAccess\obj\Debug\net6.0\DataAccess.csproj.AssemblyReference.cache
+C:\MyProjects\DotNetCamp\CarRentalProject\DataAccess\obj\Debug\net6.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\MyProjects\DotNetCamp\CarRentalProject\DataAccess\obj\Debug\net6.0\DataAccess.AssemblyInfoInputs.cache
+C:\MyProjects\DotNetCamp\CarRentalProject\DataAccess\obj\Debug\net6.0\DataAccess.AssemblyInfo.cs
+C:\MyProjects\DotNetCamp\CarRentalProject\DataAccess\obj\Debug\net6.0\DataAccess.csproj.CoreCompileInputs.cache
+C:\MyProjects\DotNetCamp\CarRentalProject\DataAccess\bin\Debug\net6.0\DataAccess.deps.json
+C:\MyProjects\DotNetCamp\CarRentalProject\DataAccess\bin\Debug\net6.0\DataAccess.dll
+C:\MyProjects\DotNetCamp\CarRentalProject\DataAccess\bin\Debug\net6.0\DataAccess.pdb
+C:\MyProjects\DotNetCamp\CarRentalProject\DataAccess\bin\Debug\net6.0\Entities.dll
+C:\MyProjects\DotNetCamp\CarRentalProject\DataAccess\bin\Debug\net6.0\Entities.pdb
+C:\MyProjects\DotNetCamp\CarRentalProject\DataAccess\obj\Debug\net6.0\DataAccess.csproj.CopyComplete
+C:\MyProjects\DotNetCamp\CarRentalProject\DataAccess\obj\Debug\net6.0\DataAccess.dll
+C:\MyProjects\DotNetCamp\CarRentalProject\DataAccess\obj\Debug\net6.0\refint\DataAccess.dll
+C:\MyProjects\DotNetCamp\CarRentalProject\DataAccess\obj\Debug\net6.0\DataAccess.pdb
+C:\MyProjects\DotNetCamp\CarRentalProject\DataAccess\obj\Debug\net6.0\ref\DataAccess.dll
