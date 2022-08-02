@@ -13,3 +13,5 @@ C:\MyProjects\DotNetCamp\CarRentalProject\DataAccess\obj\Debug\net6.0\DataAccess
 C:\MyProjects\DotNetCamp\CarRentalProject\DataAccess\obj\Debug\net6.0\refint\DataAccess.dll
 C:\MyProjects\DotNetCamp\CarRentalProject\DataAccess\obj\Debug\net6.0\DataAccess.pdb
 C:\MyProjects\DotNetCamp\CarRentalProject\DataAccess\obj\Debug\net6.0\ref\DataAccess.dll
+C:\MyProjects\DotNetCamp\CarRentalProject\DataAccess\bin\Debug\net6.0\Core.dll
+C:\MyProjects\DotNetCamp\CarRentalProject\DataAccess\bin\Debug\net6.0\Core.pdb
