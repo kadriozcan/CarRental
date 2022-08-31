@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "Hash": "trsm/3ILyLT9L6iZBvSOdSkfQzG8bUHX8BQURAsjcAE=",
+  "Source": "WebAPI",
+  "BasePath": "_content/WebAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "WebAPI\\wwwroot",
+      "Source": "WebAPI",
+      "ContentRoot": "C:\\MyProjects\\DotNetCamp\\CarRentalProject\\WebAPI\\wwwroot\\",
+      "BasePath": "_content/WebAPI",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\MyProjects\\DotNetCamp\\CarRentalProject\\WebAPI\\wwwroot\\images\\.jpg0bf48317-c48b-4241-8e99-79dc75c34ff8",
+      "SourceId": "WebAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\MyProjects\\DotNetCamp\\CarRentalProject\\WebAPI\\wwwroot\\",
+      "BasePath": "_content/WebAPI",
+      "RelativePath": "images/.jpg0bf48317-c48b-4241-8e99-79dc75c34ff8",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\.jpg0bf48317-c48b-4241-8e99-79dc75c34ff8"
+    },
+    {
+      "Identity": "C:\\MyProjects\\DotNetCamp\\CarRentalProject\\WebAPI\\wwwroot\\images\\.jpg36cebfb8-dc40-4d64-89f8-e5eff20682b5",
+      "SourceId": "WebAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\MyProjects\\DotNetCamp\\CarRentalProject\\WebAPI\\wwwroot\\",
+      "BasePath": "_content/WebAPI",
+      "RelativePath": "images/.jpg36cebfb8-dc40-4d64-89f8-e5eff20682b5",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\.jpg36cebfb8-dc40-4d64-89f8-e5eff20682b5"
+    },
+    {
+      "Identity": "C:\\MyProjects\\DotNetCamp\\CarRentalProject\\WebAPI\\wwwroot\\images\\.jpgdda1aed0-3fd5-4471-ac47-6cd0c8c3949d",
+      "SourceId": "WebAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\MyProjects\\DotNetCamp\\CarRentalProject\\WebAPI\\wwwroot\\",
+      "BasePath": "_content/WebAPI",
+      "RelativePath": "images/.jpgdda1aed0-3fd5-4471-ac47-6cd0c8c3949d",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\.jpgdda1aed0-3fd5-4471-ac47-6cd0c8c3949d"
+    },
+    {
+      "Identity": "C:\\MyProjects\\DotNetCamp\\CarRentalProject\\WebAPI\\wwwroot\\images\\.jpgf0cdc27d-86c7-4e07-8258-8b3a0b0beb21",
+      "SourceId": "WebAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\MyProjects\\DotNetCamp\\CarRentalProject\\WebAPI\\wwwroot\\",
+      "BasePath": "_content/WebAPI",
+      "RelativePath": "images/.jpgf0cdc27d-86c7-4e07-8258-8b3a0b0beb21",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\.jpgf0cdc27d-86c7-4e07-8258-8b3a0b0beb21"
+    }
+  ]
+}

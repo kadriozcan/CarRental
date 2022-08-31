@@ -9,11 +9,27 @@ namespace ConsoleUI
     {
         static void Main(string[] args)
         {
-            CarDetails();
+            //CarDetails();
 
             //BrandDetails();
 
             //ColorDetails();
+
+            //User user1 = new User { FirstName = "Ali", LastName = "Veli", Email = "aveli@gmail.com", Password = "aveli123" };
+            //UserManager userManager = new UserManager(new EfUserDal());
+            //userManager.Add(user1);
+
+            //CustomerManager customerManager = new CustomerManager(new EfCustomerDal());
+            ////customerManager.Add(new Customer { CompanyName = "Kardesler AS", UserId = 2 });
+            //customerManager.Delete(new Customer { Id = 1002 });
+
+
+            Rental rental1 = new Rental { CarId = 1, CustomerId=1, RentDate=DateTime.Now };
+
+            RentalManager rentalManager = new RentalManager(new EfRentalDal());
+            rentalManager.Add(rental1);
+
+            
 
         }
 
@@ -21,7 +37,7 @@ namespace ConsoleUI
         {
             ColorManager colorManager = new ColorManager(new EfColorDal());
 
-            foreach (var i in colorManager.GetAll())
+            foreach (var i in colorManager.GetAll().Data)
             {
                 Console.WriteLine(i.Name);
             }
@@ -31,7 +47,7 @@ namespace ConsoleUI
         {
             BrandManager brandManager = new BrandManager(new EfBrandDal());
 
-            foreach (var brand in brandManager.GetAll())
+            foreach (var brand in brandManager.GetAll().Data)
             {
                 Console.WriteLine(brand.Name);
             }
@@ -41,7 +57,7 @@ namespace ConsoleUI
         {
             CarManager carManager = new CarManager(new EfCarDal());
 
-            foreach (var v in carManager.GetCarDetails())
+            foreach (var v in carManager.GetCarDetails().Data)
             {
                 Console.WriteLine(v.BrandName +  v.ColorName+ v.DailyPrice);
             }
