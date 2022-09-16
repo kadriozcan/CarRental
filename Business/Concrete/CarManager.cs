@@ -2,6 +2,8 @@
 using Business.BusinessAspects.Autofac;
 using Business.Constants;
 using Business.ValidationRules.FluentValidation;
+using Core.Aspects.Autofac.Caching;
+using Core.Aspects.Autofac.Performance;
 using Core.Aspects.Autofac.Validation;
 using Core.CrossCuttingConcerns.Validation.FluentValidation;
 using Core.Utilities.Results;
@@ -21,19 +23,23 @@ namespace Business.Concrete
             _carDal = carDal; 
         }
 
+        [CacheAspect]
+        [PerformanceAspect(4)]
         public IDataResult<List<Car>> GetAll()
         {
             return new SuccessDataResult<List<Car>>(_carDal.GetAll(), Messages.Listed);
         }
 
+        [CacheAspect]
         public IDataResult<Car> GetById(int id)
         {
             return new SuccessDataResult<Car>(_carDal.Get(c => c.Id == id), Messages.Listed);
         }
 
 
-        [ValidationAspect(typeof(CarValidator))]
-        [SecuredOperation("car.add")]
+        //[ValidationAspect(typeof(CarValidator))]
+        //[SecuredOperation("car.add")]
+        //[CacheRemoveAspect("ICarService.Get")]
         public IResult Add(Car car)
         {
             ValidationTool.Validate(new CarValidator(), car);
@@ -59,5 +65,40 @@ namespace Business.Concrete
         {
             return new SuccessDataResult<List<CarDetailDto>>(_carDal.GetCarDetailDtos(), Messages.Listed);
         }
+
+        public IDataResult<List<CarDetailDto>> GetCarDetailsByBrandId(int brandId)
+        {
+            var result = _carDal.GetCarDetailDtos(c => c.BrandId == brandId);
+            if (result.Count==0)
+            {
+                return new ErrorDataResult<List<CarDetailDto>>(default, Messages.CarNotFound);
+            }
+            return new SuccessDataResult<List<CarDetailDto>>(result, Messages.Listed);
+        
+        }
+
+        public IDataResult<List<CarDetailDto>> GetCarDetailsByColorId(int colorId)
+        {
+            var result = _carDal.GetCarDetailDtos(c => c.ColorId == colorId);
+            if (result.Count==0)
+            {
+                return new ErrorDataResult<List<CarDetailDto>>(default, Messages.CarNotFound);
+
+            }
+            return new SuccessDataResult<List<CarDetailDto>>(result, Messages.Listed);
+
+        }
+
+        public IDataResult<List<CarDetailDto>> GetCarDetailsByBrandIdColorId(int brandId, int colorId)
+        {
+            var result = _carDal.GetCarDetailDtos(c => c.BrandId == brandId && c.ColorId == colorId);
+            if (result.Count == 0)
+            {
+                return new ErrorDataResult<List<CarDetailDto>>(default, Messages.CarNotFound);
+
+            }
+            return new SuccessDataResult<List<CarDetailDto>>(result, Messages.Listed);
+        }
+
     }
 }

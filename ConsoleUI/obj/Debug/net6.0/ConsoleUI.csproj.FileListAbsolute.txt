@@ -69,3 +69,10 @@ C:\MyProjects\DotNetCamp\CarRentalProject\ConsoleUI\bin\Debug\net6.0\Castle.Core
 C:\MyProjects\DotNetCamp\CarRentalProject\ConsoleUI\bin\Debug\net6.0\FluentValidation.dll
 C:\MyProjects\DotNetCamp\CarRentalProject\ConsoleUI\bin\Debug\net6.0\Microsoft.AspNetCore.Http.Features.dll
 C:\MyProjects\DotNetCamp\CarRentalProject\ConsoleUI\bin\Debug\net6.0\System.IO.Pipelines.dll
+C:\MyProjects\DotNetCamp\CarRentalProject\ConsoleUI\bin\Debug\net6.0\Microsoft.AspNetCore.Http.dll
+C:\MyProjects\DotNetCamp\CarRentalProject\ConsoleUI\bin\Debug\net6.0\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\MyProjects\DotNetCamp\CarRentalProject\ConsoleUI\bin\Debug\net6.0\Microsoft.AspNetCore.WebUtilities.dll
+C:\MyProjects\DotNetCamp\CarRentalProject\ConsoleUI\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll
+C:\MyProjects\DotNetCamp\CarRentalProject\ConsoleUI\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\MyProjects\DotNetCamp\CarRentalProject\ConsoleUI\bin\Debug\net6.0\Microsoft.Extensions.ObjectPool.dll
+C:\MyProjects\DotNetCamp\CarRentalProject\ConsoleUI\bin\Debug\net6.0\Microsoft.Net.Http.Headers.dll
