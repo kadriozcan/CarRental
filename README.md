@@ -1,7 +1,5 @@
 # CarRental
 
-![image](https://user-images.githubusercontent.com/69864471/190592433-c211a2a5-122f-4b67-828c-a4d7abb2f4e7.png)
-
 
 
 ## Technologies, Frameworks and Best Practices
